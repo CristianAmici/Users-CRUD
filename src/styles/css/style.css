@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+/*///////////Tabla Usuarios/////////////////*/
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+main {
+    width: auto;
+    background-color: #F1F1F1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #5b74c5f1;
+    color: rgb(233, 215, 215);
+}
+
+.center {
+    position: absolute;
+}
+
+.userLogo,
+.loginLogo {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+h1,
+h2,
+h3,
+table {
+    text-align: center;
+}
+
+
+table {
+    border-collapse: collapse;
+
+}
+
+.inputConteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 4px;
+}
+
+label {
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+section,
+form,
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+table {
+    border-radius: 10px;
+    margin: 25px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: normal;
+    padding: 8px;
+    background: #b9c9fe;
+    border-bottom: 1px solid #fff;
+}
+
+td {
+    font-size: 14px;
+    padding: 8px;
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid transparent;
+}
+
+tr:hover td {
+    background: #d0dafd;
+}
+
+form {
+    position: relative;
+    background-color: #b9c9fe;
+    padding: 10px;
+    margin: 15px;
+
+
+}
+
+form,
+input {
+    border-radius: 10px;
+}
+input {
+    padding:5px;
+}
+.btnSuccess, .link {
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 10px;
+    background-color: #1A8CD8;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.createUser {
+    display: none;
+}
+.btnReturn, .linkReturn {
+    position: absolute;
+    border-top-right-radius: 10px;
+    top: 0px;
+    right: 1px;
+    padding:3px;
+    border: none;
+    font-size: 14px;
+    color: #f1f1f1;
+    background-color: rgba(173, 69, 62, 0.733);
+    text-decoration: none;
+}
+
+.iconBin {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(50, 153, 179, 0.795);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.iconBin:hover {
+    background-color: rgba(173, 28, 28, 0.836);
+    transition: 0.4s;
+}
+
+.iconPen {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(50, 153, 179, 0.795);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.iconPen:hover {
+    background-color: rgba(216, 196, 20, 0.836);
+    transition: 0.4s;
+}
+
+.imgUsersTable {
+    height: 50%;
+    width: 50%;
+}
