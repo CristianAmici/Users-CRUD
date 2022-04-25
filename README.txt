@@ -15,6 +15,7 @@ del archivo (user.sql) como consulta SQL dentro de la base de datos.
 -Mover la carpeta "examen" al directorio de aplicaciones de apache.
 -Por último desde un browser se llama a la aplicación de la siguiente forma 
  http://[nombre del servidor]/[directorio de la aplicación].
+ -el usuario por defecto para ingresar al sitio por primera vez (si no se crea una cuenta) es USUARIO: admin@admin.com CONTRASEÑA: admin.
 
 
 
